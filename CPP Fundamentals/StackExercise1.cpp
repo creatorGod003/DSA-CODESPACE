@@ -3,8 +3,8 @@
 * Reverse a string using stack
 * Key Takeways:
 * 1. push(x) -> function adds an element to top of stack and returns nothing.
-* 2. pop() -> function removes an element from top of stack and return void.
-* 3. top() -> funtion return reference to top element of stack.
+* 2. pop() -> function removes an element from top of stack and return void. On Empty Stack it will cause crash.
+* 3. top() -> funtion return reference to top element of stack. On Empty Stack it will cause crash.
 * 4. empty() -> returns true if stack is empty, else false.
 * 5. size() -> returns the number of elements in stack.
 
